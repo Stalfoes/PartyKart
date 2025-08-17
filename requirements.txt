@@ -1,0 +1,7 @@
+# Python Version == 3.9.6
+jax==0.4.26
+jaxlib==0.4.26
+numpy==1.26.0
+matplotlib==3.8.0
+pygame==2.5.2
+PyYAML==6.0.1

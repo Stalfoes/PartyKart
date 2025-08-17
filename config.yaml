@@ -1,0 +1,34 @@
+roster:
+  - Luke
+  - Rony
+  - Paul
+  - Jensen
+  - Matei
+  - Michael
+  - Alek
+  - Anton
+  - Eric
+  - Benny
+  - Pavlo
+  - Chloe
+  - Grace
+  - Rigby
+  - Bensen
+  - Christine
+people_that_left: null
+  # - Eric
+num_races_each: 7
+previous_races: null
+  # - Jensen Rony Anton Michael
+  # - Eric Anton Luke Paul
+  # - Alek Eric Anton Michael
+  # - Eric Jensen Matei Alek
+algorithmic:
+  seed: 1
+  num_trials: 10
+  num_optimize_iterations: 25000
+  initial_optimize_temperature: 1.0
+  optimize_cooling_rate: 0.005
+  num_swap_iterations: 500000
+  initial_swap_temperature: 1.0
+  swap_cooling_rate: 0.0001
