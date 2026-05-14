@@ -1,7 +1,7 @@
 # PartyKart
 An application for generating Mario Kart races that optimizes fairness.
 
-This is my version from 2025, but I have a new [https://github.com/Stalfoes/PartyKartVersion2](Version 2 I think you should check out here)!
+This is my version from 2025, but I have a new [Version 2 I think you should check out here](https://github.com/Stalfoes/PartyKartVersion2)!
 
 ## Goals:
 1. To match players evenly with every opponent.
