@@ -1,32 +1,32 @@
 roster:
   - Luke
   - Rony
-  - Paul
-  - Jensen
-  - Matei
-  - Michael
-  - Alek
-  - Anton
+  - Dave
+  - Ella
+  - Aiden
+  - Maria
+  - Karla
+  - Alex
   - Eric
-  - Benny
-  - Pavlo
-  - Chloe
-  - Grace
-  - Rigby
-  - Bensen
-  - Christine
+  - Nick
+  - Ben
+  - Chris
+  - Jon
+  - Tyler
+  - Adrianna
 people_that_left: null
-  # - Eric
-num_races_each: 7
-previous_races: null
-  # - Jensen Rony Anton Michael
-  # - Eric Anton Luke Paul
-  # - Alek Eric Anton Michael
-  # - Eric Jensen Matei Alek
+  # - Rony
+num_races_each: 4
+previous_races:
+  - Aiden Nick Maria Dave
+  - Eric Nick Jon Alex
+  - Ben Alex Dave Karla
+  - Luke Aiden Alex Chris
+  - Aiden Jon Ella Karla
 algorithmic:
   seed: 1
   num_trials: 10
-  num_optimize_iterations: 25000
+  num_optimize_iterations: 20000
   initial_optimize_temperature: 1.0
   optimize_cooling_rate: 0.005
   num_swap_iterations: 500000
