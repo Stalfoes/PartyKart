@@ -8,6 +8,7 @@ This is my version from 2025, but I have a new [Version 2 I think you should che
 1. To spread each player's races out as evenly as possible.
 
 ## NOTES:
+- **Some of the code may not work. Sorry, but since it's Version 1, I suggest you check out my better Version 2 anyways!**
 - This project uses Pygame and an older version of Python (3.9.6), so please be aware when running it that you may need to downgrade some of your existing installations
 - This was my first attempt at a desktop app and I chose some of the only front-end I knew for Python to do it: Pygame
 - To generate the races, the app uses Simulated Annealing
