@@ -38,15 +38,15 @@ class Leaderboard:
         # Create surface
         surface = pygame.Surface(size, pygame.SRCALPHA)
         # Display leaderboard title
-        font = pygame.font.Font('/Users/kapeluck/Documents/Personal/RonyPartyKart/application/fonts/MarioNett.ttf', int(text_size * 1.5))
+        font = pygame.font.Font('/Users/kapeluck/Documents/Personal/RonyPartyKart/PartyKart/application/fonts/MarioNett.ttf', int(text_size * 1.5))
         # text = font.render("LEADERBOARD", True, (10,10,10))
         text = graphics.outline_text_render("LEADERBOARD", font, (36, 175, 255), (10,10,10), 5)
         textpos = text.get_rect()
         textpos.centerx = surface.get_rect().centerx
         surface.blit(text, textpos)
         # Plot the actual leaderboard
-        font = pygame.font.Font('/Users/kapeluck/Documents/Personal/RonyPartyKart/application/fonts/MarioNett.ttf', text_size)
-        position_font = pygame.font.Font('/Users/kapeluck/Documents/Personal/RonyPartyKart/application/fonts/MarioNett.ttf', int(text_size * 1.3))
+        font = pygame.font.Font('/Users/kapeluck/Documents/Personal/RonyPartyKart/PartyKart/application/fonts/MarioNett.ttf', text_size)
+        position_font = pygame.font.Font('/Users/kapeluck/Documents/Personal/RonyPartyKart/PartyKart/application/fonts/MarioNett.ttf', int(text_size * 1.3))
         sorted_scores = self.sorted_people()
         for pos,(person,score,games_played) in enumerate(sorted_scores):
             # draw the rectangle around the name

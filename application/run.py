@@ -17,7 +17,7 @@ def main():
     pygame.display.set_caption("Luke's Beerio Kart Program")
 
     try:
-        background_image = pygame.image.load('/Users/kapeluck/Documents/Personal/RonyPartyKart/application/images/background.png').convert() # Use .convert_alpha() if image has transparency
+        background_image = pygame.image.load('/Users/kapeluck/Documents/Personal/RonyPartyKart/PartyKart/application/images/background.png').convert() # Use .convert_alpha() if image has transparency
     except pygame.error as e:
         print(f"Error loading image: {e}")
         pygame.quit(); exit()

@@ -47,7 +47,7 @@ class RaceDisplay:
         little_spacer = rect_height * 0.22
         # Create surface
         surface = pygame.Surface(size, pygame.SRCALPHA)
-        font = pygame.font.Font('/Users/kapeluck/Documents/Personal/RonyPartyKart/application/fonts/MarioNett.ttf', text_size)
+        font = pygame.font.Font('/Users/kapeluck/Documents/Personal/RonyPartyKart/PartyKart/application/fonts/MarioNett.ttf', text_size)
         # text = font.render("Current Race", True, (10, 10, 10))
         text = graphics.outline_text_render("Current Race", font, (36, 175, 255), (10,10,10), 5)
         textpos = text.get_rect()
