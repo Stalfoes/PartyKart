@@ -4,7 +4,7 @@ from typing import Any
 import pygame
 
 
-ACTIVITIES_FILE = '/Users/kapeluck/Documents/Personal/RonyPartyKart/application/activities/activities.txt'
+ACTIVITIES_FILE = '/Users/kapeluck/Documents/Personal/RonyPartyKart/PartyKart/application/activities/activities.txt'
 
 
 class Spinner:

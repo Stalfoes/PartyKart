@@ -48,7 +48,7 @@ if __name__ == '__main__':
             # print_player_matrix(ROSTER, races)
             swapped_races, swap_fitness, _ = order_races(SEED + 1, races, ROSTER, NUM_SWAP_ITERATIONS, INITIAL_SWAP_TEMPERATURE, SWAP_COOLING_RATE)
             # print(f"Swap Fitness = {swap_fitness}")
-            with open(f"/Users/kapeluck/Documents/Personal/RonyPartyKart/results/result_{n}_{r}.result", 'wb') as result_file:
+            with open(f"/Users/kapeluck/Documents/Personal/RonyPartyKart/PartyKart/results/result_{n}_{r}.result", 'wb') as result_file:
                 pickle.dump((swapped_races,fitness,swap_fitness))
             print(f'done {n=} {r=}')
     print('done!')
